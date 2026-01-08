@@ -242,3 +242,58 @@ for i in range(10000):
 print(f'meciau {count} kartu, kol iskrito 1000000 6tu. tikimybe yra {10000 / count}')
 end_time = time.time()
 print(f'paskaiciavimams prireikė {(end_time - start_time)  } sekundžių')
+
+
+text = "labas vakaras studentai"
+pts = text.split()
+print(pts[2])
+print(text[16])
+
+for i in range(51)[10::2]:
+    print(i)
+print("----------------------------")
+for y in range(1,11):
+    for x in range(1,11):
+        print(f'{y * x:>3}', end=" ")
+    print()
+
+print("----------------------------")
+for y in range(1,11):
+    row = ""
+    for x in range(1,11):
+        row += str(y * x) + " "
+    print(row)
+
+# print(5,5,5,5,5,5,5,end="")
+# print(5,5,5,5,5,5,5,end="")
+# print(5,5,5,5,5,5,5,end="")
+# print()
+# print("-----------uzd 8-------------")
+
+print("----------------------------")
+
+#       0 1 2  3 4 5
+arr = [ 1,4,12]
+print(arr)
+for i in range(len(arr)):
+    for a in range(len(arr) -1):
+        if arr[a] < arr[a+1]:
+           temp = arr[a]
+           arr[a] = arr[a+1]
+           arr[a+1] = temp
+        print(arr)
+
+print("----------------------------")
+
+arr = [8,1, 4, 12, 3, 2, 8]
+print(arr)
+for i in range(len(arr)): #bubble sort
+    for a in range(i, len(arr)):
+        if arr[a] > arr[i]:
+            temp = arr[a]
+            arr[a] = arr[i]
+            arr[i] = temp
+        print(arr)
+    print()
+arr.sort()
+print(arr)
