@@ -138,6 +138,6 @@ for i in range(5):
         total_taukst += taukst
         # print(total_taukst)
     total_count += count
-    print(f'Vinį įkalėme {count} smūgiais, iš viso sukalta {total_taukst}mm.')
+    print(f'Vinį įkalėme {count} smūgiais, iš viso sukalta {total_taukst}mm.') # komentaras
 print(f'Iš viso prireikė {total_count} smūgių')
-
+print('Dovilės kodas')
