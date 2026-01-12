@@ -297,3 +297,15 @@ for i in range(len(arr)): #bubble sort
     print()
 arr.sort()
 print(arr)
+even_arr = []
+odd_arr = []
+for i in range(len(arr)):
+    pass
+for i,val in enumerate(arr):
+    if i % 2 == 0:
+        print("porinis",i,val)
+        even_arr.append(val)
+    else:
+        print("neporinis",i,val)
+        odd_arr.append(val)
+print(even_arr,odd_arr)
