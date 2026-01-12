@@ -141,3 +141,5 @@ for i in range(5):
     print(f'Vinį įkalėme {count} smūgiais, iš viso sukalta {total_taukst}mm.')
 print(f'Iš viso prireikė {total_count} smūgių')
 
+print()
+
